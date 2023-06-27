@@ -1,0 +1,24 @@
+.navbar {
+    background-color: lightgray;
+    height: 60px;
+    display: flex;
+    justify-content: space-between; /* Add space between brand and elements */
+    align-items: center;
+    padding: 0 10px; /* Add padding as needed */
+  }
+  
+  .navbar-brand {
+    font-size: 20px;
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+  }
+  
+  .nav-list li {
+    margin-left: 10px; /* Add margin between elements */
+  }
+  
